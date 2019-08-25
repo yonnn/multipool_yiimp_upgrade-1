@@ -6,7 +6,7 @@
 source /etc/functions.sh
 cd $HOME/multipool/yiimp_upgrade
 
-RESULT=$(dialog --stdout --nocancel --default-item 1 --title "Ultimate Crypto-Server YiiMP Updater v1.08" --menu "Choose one" -1 65 7 \
+RESULT=$(dialog --stdout --nocancel --default-item 1 --title "Ultimate bunbunbunbunbunny YiiMP Updater v1.08" --menu "Choose one" -1 65 7 \
 ' ' "- Upgrade Stratum and YiiMP Single Server Installation -" \
 1 "Upgrade YiiMP Single Server Installation" \
 ' ' "- Upgrade Stratum Servers Multi Server Installation -" \
