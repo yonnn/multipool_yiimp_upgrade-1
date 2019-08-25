@@ -8,9 +8,9 @@ source $STORAGE_ROOT/yiimp/.yiimp.conf
 
 if [[ ! -e '$STORAGE_ROOT/yiimp/yiimp_setup/yiimp' ]]; then
 sudo rm -r $STORAGE_ROOT/yiimp/yiimp_setup/yiimp
-hide_output sudo git clone ${YiiMPRepo} $STORAGE_ROOT/yiimp/yiimp_setup/yiimp
+hide_output sudo git clone https://github.com/bunbunbunbunbunny/yiimp $STORAGE_ROOT/yiimp/yiimp_setup/yiimp
 else
-hide_output sudo git clone ${YiiMPRepo} $STORAGE_ROOT/yiimp/yiimp_setup/yiimp
+hide_output sudo git clone https://github.com/bunbunbunbunbunny/yiimp $STORAGE_ROOT/yiimp/yiimp_setup/yiimp
 fi
 
 echo Upgrading stratum...
