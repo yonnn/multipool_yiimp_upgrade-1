@@ -28,7 +28,7 @@ export LC_TYPE=en_US.UTF-8
 export NCURSES_NO_UTF8_ACS=1
 
 # Create the temporary installation directory if it doesn't already exist.
-echo Creating the temporary bunbunbunbunbunny YiiMP installation folder...
+echo Creating the temporary  YiiMP installation folder...
 if [ ! -d $STORAGE_ROOT/yiimp/yiimp_setup ]; then
 sudo mkdir -p $STORAGE_ROOT/yiimp/yiimp_setup
 fi
@@ -39,4 +39,4 @@ source upgrade_warning.sh
 source menu.sh
 
 clear
-echo Upgrade of your bunbunbunbunbunny YiiMP stratum is now completed.
+echo Upgrade of your  YiiMP stratum is now completed.
